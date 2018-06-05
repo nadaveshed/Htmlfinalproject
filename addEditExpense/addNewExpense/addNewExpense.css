@@ -1,0 +1,101 @@
+body{
+    direction: rtl;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    background-image: url("addNewExpense.jpg");
+    background-size: 100% 100%;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.AddNewExpenseCaptionStyle{ /* Header styling */
+    text-shadow: 2px 2px darkcyan;
+    font-size: 130;
+    position: static;
+    font-weight: bold;
+    text-align: center;
+    color: darkgoldenrod;
+}
+/*------------------Input textbox and their labels styling--------------------- */
+.MyDateStyle{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.NewDateStyle{
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.MyCategoryStyle{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.InputCategoryStyle{
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.MyPaymentStyle{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.InputPaymentStyle{
+    font-size: 30px;
+}
+
+.MyTransactionStyle{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.NewTransactionStyle{
+    font-size: 30px;
+    margin-top: 40px;
+    width: 180px;
+}
+
+.MyCommentStyle{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.NewCommentStyle{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+/*------------------Buttons styling--------------------- */
+.AddNewExpenseButtonStyle{
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 0 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin-top: 100px;
+}
+
+.BackButtonStyle{
+    font-weight: bold;
+    box-shadow: 0 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 40px;
+}
+
+.AddNewExpenseButtonStyle a{
+    color: black; 
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.BackButtonStyle a{
+    color: black; 
+    font-size: 30px;
+    text-decoration: none;
+    
+}

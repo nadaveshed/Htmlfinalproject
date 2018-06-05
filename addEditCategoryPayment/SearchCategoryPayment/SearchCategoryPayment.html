@@ -1,0 +1,28 @@
+<!--
+Tal Rofeh
+301905154
+Nadav Eshed
+201656147
+-->
+
+<!DOCTYPE html5>
+<html>								<!--Search category/payment-method page-->
+			<meta charset="utf-8" />
+			<head>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<link rel = "stylesheet" href = "SearchCategoryPayment.css" />
+				<script type = "text/javascript" src="SearchCategoryPayment.js"></script>
+				<label id="SearchCategoryPaymentCaption" class="SearchCategoryPaymentCaptionStyle">חפש לפי קטגוריה או אמצעי תשלום</label> <!--header of glucose tracker-->
+			</head>
+			<body>
+				<div class="SearchCategoryPayment"> <!--Radio buttons to choose what to show-->
+					<input type="radio" name="Choice" id="Category" checked="checked"> קטגוריה</input>
+					<input type="radio" name="Choice" id="Payment"> אמצעי תשלום</input><br>
+					<!--Show the table according to chosen property-->
+					<button id="ShowCategoryPayment" class="ShowCategoryPaymentStyle">הצג</button>
+					<button id="BackButton" class="BackButtonStyle"><a href="javascript:history.back()" id="BackLink">חזרה</a></button><br>
+					<!--Category / payment-method table-->
+					<div id="CategoryPaymentTableResults" class="CategoryPaymentTableResultsStyle"></div><br> 
+				</div>
+			</body>
+</html>

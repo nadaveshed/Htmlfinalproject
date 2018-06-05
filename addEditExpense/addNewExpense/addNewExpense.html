@@ -1,0 +1,39 @@
+<!--
+Tal Rofeh
+301905154
+Nadav Eshed
+201656147
+-->
+
+<!DOCTYPE html5>
+<html>								<!--Save new expense page-->
+			<meta charset="utf-8" />
+			<head>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<link rel = "stylesheet" href = "addNewExpense.css" />
+				<script type = "text/javascript" src="addNewExpense.js"></script>
+				<label id="AddNewExpenseCaption" class="AddNewExpenseCaptionStyle">הוסף הוצאה חדשה</label>
+			</head>
+			<body>
+				<div class="AddNewExpense"> 
+					<!--Add a new expense-->
+					<label id="MyDate" class="MyDateStyle">הכנס תאריך: </label>
+					<input id="NewDate" class="NewDateStyle" type="date"></input>
+					<br>
+					<label id="MyCategory" class="MyCategoryStyle">בחר קטגוריה:</label>
+					<select id="InputCategory" class="InputCategoryStyle"></select>
+					
+					<label id="MyPayment" class="MyPaymentStyle">בחר אמצעי תשלום:</label>
+					<select id="InputPayment" class="InputPaymentStyle"></select>
+					<br>
+					<label id="MyTransaction" class="MyTransactionStyle">הכנס סכום עסקה: </label>
+					<input id="NewTransaction" class="NewTransactionStyle" type="number"></input>
+					<br>
+					<label id="MyComment" class="MyCommentStyle">הערות: </label>
+					<input id="NewComment" class="NewCommentStyle"></input>
+					<br>
+					<button id="AddNewExpenseButton" class="AddNewExpenseButtonStyle">הוסף הוצאה</button>
+					<button id="BackButton" class="BackButtonStyle"><a href="javascript:history.back()">חזרה</a></button>
+				</div>
+			</body>
+</html>

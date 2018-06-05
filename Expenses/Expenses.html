@@ -1,0 +1,45 @@
+<!--
+Tal Rofeh
+301905154
+Nadav Eshed
+201656147
+-->
+
+<!DOCTYPE html5>
+<html>									<!--Show all expenses currently in the application-->
+			<meta charset="utf-8" /> 
+			<head>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<link rel = "stylesheet" href = "Expenses.css" />
+				<script type = "text/javascript" src="Expenses.js"></script>
+				<label id="ExpensesCaption" class="ExpensesCaptionStyle">הוצאות</label> 
+			</head>
+			<body>
+				<div class="Expenses"> 
+					<!-----------filtering options by date, category, payment method and transaction sum------------->					
+					<label class="label2Style">סנן לפי: </label><br> 
+					
+					<label class="DateStart">מתאריך: </label>
+					<input id="InputDateStart" class="InputDateStartStyle" type="date"></input>
+					
+					<label class="DateEnd">עד תאריך: </label>
+					<input id="InputDateEnd" class="InputDateEndStyle" type="date"></input><br>
+					
+					<label class="ChooseCategory">קטגוריה: </label>
+					<select id="InputCategory" class="InputCategoryStyle"></select>
+					
+					<label class="PaymentOptions">סוג תשלום: </label>
+					<select id="InputPayment" class="InputPaymentStyle"></select>
+					<br>
+					<label class="TransactionSum">סכום עסקה: </label>
+					<input id="InputTransactionSum" class="InputTransactionSumStyle" type="number"></input>
+					<br>
+					<button id="Filter" class="FilterStyle">סינון תוצאות</button><br>
+					<button id="Clean" class="CleanStyle">נקה שדות</button>
+					
+					<button id="BackButton" class="BackButtonStyle"><a href="javascript:history.back()">חזרה</a></button>
+					
+					<div id="ExpensesTable" class="ExpensesTableStyle"></div> <!--Table that show all current expenses-->
+				</div>
+			</body>
+</html>

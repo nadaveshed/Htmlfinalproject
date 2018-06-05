@@ -1,0 +1,150 @@
+body{
+    background-image: url("MainScreenImage.jpg");
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.MainPageStyle{ /* Main page styling */
+    text-shadow: 2px 2px darkcyan;
+    border-radius: 4px;
+    font-size: 130;
+    position: static;
+    font-weight: bold;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+/* ---------------------------------------Main page buttons styling----------------------------------- */
+.addEditCategoryPaymentButtonStyle{ 
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    margin-top: 130px;
+    font-size: 36px;
+}
+
+.addEditCategoryPaymentButtonStyle a{
+    text-decoration: none;
+    color: sandybrown;
+}
+
+.addEditCategoryPaymentButtonStyle span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.addEditCategoryPaymentButtonStyle span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.addEditCategoryPaymentButtonStyle:hover span{
+  padding-left: 25px;
+}
+
+.addEditCategoryPaymentButtonStyle:hover span:after{
+  opacity: 1;
+  left: 0;
+}
+
+
+.addEditExpenseButtonStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 36px;
+}
+
+.addEditExpenseButtonStyle a{
+    text-decoration: none;
+    color: sandybrown;
+}
+
+.addEditExpenseButtonStyle span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.addEditExpenseButtonStyle span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.addEditExpenseButtonStyle:hover span {
+  padding-left: 25px;
+}
+
+.addEditExpenseButtonStyle:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+
+.ExpensesStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.ExpensesStyle a{
+    text-decoration: none;
+    color: sandybrown;
+}
+
+.ExpensesStyle span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.ExpensesStyle span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.ExpensesStyle:hover span {
+  padding-left: 25px;
+}
+
+.ExpensesStyle:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+
+
+
+

@@ -1,0 +1,30 @@
+<!--
+Tal Rofeh
+301905154
+Nadav Eshed
+201656147
+-->
+
+<!DOCTYPE html5>
+<html>								<!--Add new category or payment method-->
+			<meta charset="utf-8" />
+			<head>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<link rel = "stylesheet" href = "addNewCategoryPayment.css" />
+				<script type = "text/javascript" src="addNewCategoryPayment.js"></script>
+				<label id="addNewCategoryPaymentCaption" class="addNewCategoryPaymentCaptionStyle">הוספת קטגוריה או אמצעי תשלום חדש</label> <!--header of glucose tracker-->
+			</head>
+			<body>
+				<div class="addNewCategoryPayment"> <!--Radio buttons to choose an option-->
+					<input type="radio" name="Choice" id="Category" checked="checked"> קטגוריה</input> 
+					<input type="radio" name="Choice" id="Payment"> אמצעי תשלום</input><br>
+					
+					<!--Input to write the new category or payment method-->
+					<input id="InputCategoryPayment" class="InputCategoryPaymentStyle"></input><br> 
+					
+					<!--Button to add new category or payment method-->
+					<button id="AddNewCategoryPaymentButton" class="AddNewCategoryPaymentButtonStyle">הוסף קטגוריה/אמצעי תשלום</button>
+					<button id="BackButton" class="BackButtonStyle"><a href="javascript:history.back()">חזרה</a></button><br>
+				</div>
+			</body>
+</html>

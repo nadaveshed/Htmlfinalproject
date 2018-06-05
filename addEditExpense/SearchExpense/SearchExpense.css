@@ -1,0 +1,158 @@
+body{
+    background-image: url("SearchExpense.jpg");
+    background-size: 100% 100%;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    direction: rtl;
+    font-size: 35px;
+}
+
+.SearchExpenseCaptionStyle{ /* Page caption styling */
+    text-shadow: 2px 2px black;
+    border-radius: 4px;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: darkred;
+}
+
+/*---------------------------------Inputs styling------------------------*/
+.InputDateStartStyle{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.InputDateEndStyle{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.InputCategoryStyle{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.InputPaymentStyle{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.InputTransactionSumStyle{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.inputStyle{ 
+    font-size: 26px;
+    margin: 2px;
+}
+
+/*---------------------------------Buttons styling------------------------*/
+.SearchExpnseStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    margin-top: 40px;
+    font-size: 34px;
+}
+
+.CleanStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 34px;  
+}
+
+.BackButtonStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 34px;
+}
+
+.BackButtonStyle a{
+    text-decoration: none;
+    color: black
+}
+
+.selectStyle{ 
+    font-size: 30px;
+    margin: 2px;
+}
+
+.buttonSaveStyle{
+    font-size: 30px;
+    margin: 2px;
+}
+
+.buttonDeleteStyle{
+    font-size: 30px;    
+    margin: 2px;
+}
+
+.buttonAbortStyle{
+    font-size: 30px;     
+    margin: 2px;
+}
+
+.tableButtonStyle{
+    font-size: 20px;
+}
+
+.ExpensesTableResultsStyle{ /* Table results styling */
+    background-color: whitesmoke; 
+    border-radius: 5px;
+    opacity: 0.9;
+    margin: 10px;
+
+}
+
+.divExpenseStyle{
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.commentsTitleStyle{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.divExpenseStyle{
+    color: cornflowerblue;
+} 
+
+.EditButtonStyle{
+    font-size: 30px;
+}
+
+.divNoResultStyle{ /* "no result" styling */
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

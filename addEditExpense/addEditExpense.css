@@ -1,0 +1,82 @@
+body{
+    background-image: url("addEditExpense.jpg");
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.addEditExpenseCaptionStyle{ /* Header menu styling */
+    text-shadow: 2px 2px black;
+    border-radius: 4px;
+    font-size: 90;
+    position: static;
+    font-weight: bold;
+    text-align: center;
+    color: darkred;
+}
+
+/*----------------------------Buttons styling----------------------*/
+.BackButtonStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    margin-top: 170px;
+    margin-right: 78;
+    font-size: 34px;
+}
+
+.AddNewExpenseStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 34px;    
+}
+
+.SearchExpnseStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 34px;  
+}
+
+
+.BackButtonStyle:hover{
+    background-color: ghostwhite;
+}
+
+.AddNewExpenseStyle:hover{
+    background-color: ghostwhite;
+}
+
+.SearchExpnseStyle:hover{
+    background-color: ghostwhite;
+}
+
+
+.BackButtonStyle a{
+    color: black;
+    text-decoration: none;
+}
+
+.AddNewExpenseStyle a{
+    color: black;
+    text-decoration: none;
+}
+
+.SearchExpnseStyle a{
+    color: black;
+    text-decoration: none;
+}

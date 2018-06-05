@@ -1,0 +1,109 @@
+body{
+    direction: rtl;
+    position: relative;
+    margin-top: 120px;
+    text-align: center;
+    background-image: url("SearchCategoryPaymentImage.jpg");
+    background-size: cover;
+}
+
+.SearchCategoryPaymentCaptionStyle{ /* Header styling */
+    color: aliceblue;
+    font-family: "Helvetica Rounded";
+    font-size: 70px;
+	font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+	line-height: 53.9px;
+}
+
+.SearchCategoryPayment{ /* Div styling */
+    color: floralwhite;
+    margin-top: 52px;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ShowCategoryPaymentStyle{ /* Show button styling */
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 0 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+.BackButtonStyle{ /* Back button styling */
+    font-weight: bold;
+    box-shadow: 0 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.divSearchResultStyle{ /* Row styling */
+    border: 3px solid gray;
+    color: floralwhite;
+    font-size: 45px;
+}
+
+.CategoryPaymentTableResultsStyle{ /* Table styling */
+    padding-right: 40%;
+}
+
+.ButtonStyle{ /* Sort buttons styling */
+    font-size: 30px;
+    box-shadow: 2px 2px gray;
+    border-radius: 8px;
+    margin: 2px;
+    padding-top: 2px;
+}
+
+.EditButtonStyle{ /* Edit buttons styling */
+    font-size: 30px;
+    box-shadow: 2px 2px gray;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+.inputStyle{ /* Input textbox styling */
+    font-size: 30px;
+    border-radius: 1px;
+    margin: 2px;
+}
+
+.buttonSaveStyle{ /* Save button styling */
+    margin: 2px;
+    border-radius: 8px;    
+    box-shadow: 2px 2px gray;
+    font-size: 30px;
+}
+
+.buttonDeleteStyle{ /* Delete button styling */
+    margin: 2px;
+    border-radius: 8px;    
+    box-shadow: 2px 2px gray;
+    font-size: 30px;    
+}
+
+.buttonAbortStyle{ /* Abort button styling */
+    margin: 2px;
+    border-radius: 8px;    
+    box-shadow: 2px 2px gray;
+    font-size: 30px;    
+}
+
+.ShowCategoryPaymentStyle a{
+    text-decoration: none;
+    color: black;
+}
+
+.BackButtonStyle a{
+    text-decoration: none;
+    color: black;
+}
+
+input[type='radio'] {
+    transform: scale(1.7);
+    margin: 10px;
+}

@@ -1,0 +1,163 @@
+body{
+    background-image: url("Expenses.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    direction: rtl;
+}
+
+.Expenses{ /* div styling */
+    margin: 10px;
+}
+
+.ExpensesCaptionStyle{ /* Page caption styling */
+    font-size: 80px;
+}
+
+.label2Style{
+    font-size: 35px;
+}
+
+/*---------------------------------Inputs styling------------------------*/
+.InputDateStartStyle{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+.InputDateEndStyle{
+    padding: 5px;
+    font-size: 15px;    
+}
+
+.InputCategoryStyle{
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 42px;
+}
+
+.InputPaymentStyle{
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.InputTransactionSumStyle{
+    direction: ltr;
+    margin-bottom: 30px;
+    font-size: 20px;
+    width: 190px;
+    padding: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*---------------------------------Buttons styling------------------------*/
+.FilterStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 2px;
+    font-size: 34px;
+}
+
+.CleanStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 34px;
+}
+
+.BackButtonStyle{
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 10px;
+    font-size: 34px;
+}
+
+.BackButtonStyle:hover{
+    background-color: ghostwhite;
+}
+
+.FilterStyle:hover{
+    background-color: ghostwhite;
+}
+
+.CleanStyle:hover{
+    background-color: ghostwhite;
+}
+
+.BackButtonStyle a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.tableButtonStyle{ 
+    font-size: 25px;
+    margin-right: 20px;
+    color: brown;
+    margin: 10px;
+    width: 150px; 
+}
+
+.ExpensesTableStyle{ /* Table styling */
+    opacity: 0.93;
+    background-color: dimgrey;
+    margin-right: 23%;
+    font-size: 20px;
+    position: absolute;
+    padding: 2px;
+
+}
+
+.commentsTitleStyle{ /* Comment column styling */
+    font-size: 25px;
+    box-shadow: 1px 1px darkgray;
+    font-weight: bold;
+    color: brown;
+    padding: 2px;
+    margin: 3px;
+    background-color: snow;
+    margin-right: 10%;
+    
+}
+
+.divExpenseStyle{
+    direction: ltr;
+    color: coral;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.divNoResultStyle{ /* "no result" styling */
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.ExpenseSumCaptionStyle{ /* Sum caption styling */
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ExpenseSumStyle{ /* Sum number styling */
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 30px;
+}
